@@ -781,7 +781,6 @@ footer .brand-publitique a:hover, footer .social-list a:hover {
 }
 
 footer .social-list {
-	padding : 50px 0px;
 	text-align: center;
 }
 
@@ -827,6 +826,17 @@ footer .social-list li.copyright { font-size: 12px; color: #aaaaaa;}
 	footer .social-list li { margin-right: 20px; }
 }
 
+@media (max-width: 620px) {
+	footer .contact-list { display:none; }
+	
+	footer .brand-publitique { padding: 10px 0px 0px; }
+	
+	footer .social-list { padding-bottom:10px 0px 0px; }
+	
+	
+
+	
+}
 
 
 /* =Content Blocks
