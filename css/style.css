@@ -780,7 +780,10 @@ footer .brand-publitique a:hover, footer .social-list a:hover {
 			transition: opacity 0.15s linear;
 }
 
-footer .social-list {padding : 50px 0px; }
+footer .social-list {
+	padding : 50px 0px;
+	text-align: center;
+}
 
 /* IE9 FIX */
 html.ie9 footer .social-list { background: #303336; }
