@@ -362,7 +362,7 @@ a.button.accent-alt:hover {
 /* Responsive Fix */
 header { position: absolute; }
 @media (min-width: 1200px) { nav { position: absolute;}}
-.sticky-head { display: none; }
+.menu-collant { display: none; }
 
 /* Mobile Navigation */
 
@@ -674,14 +674,22 @@ nav.desktop #search:focus {
 /* Sticky Navigation */
 
 @media (min-width: 1200px) {
-	.sticky-head {
+	.menu-collant {
 		position: fixed;
 		display: none;
 		height: 65px;
 		width: 100%;
+		z-index: 98;
+	}
+	
+	.menu-bleu {
 		background: rgb(45, 180, 216);
 		background: rgba(45, 180, 216, .95);
-		z-index: 98;
+	}
+	
+	.menu-jaune {
+		background: rgb(245, 201, 57);
+		background: rgba(245, 201, 57, .95);
 	}
 }
 
