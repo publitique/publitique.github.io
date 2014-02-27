@@ -82,6 +82,8 @@ section { overflow: hidden; }
 /* =Typography
 -------------------------------------------------------------- */
 
+.pacifico {font-family: Pacifico;}
+
 p {
 	font-size: 0.9em;
 	color: #424242;
