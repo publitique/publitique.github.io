@@ -519,6 +519,7 @@ header.desktop {
 	padding: 60px 0px 0px 5%;
 	width: 20%;
 	left: 0;
+	font-weight: 900;
 }
 
 header.desktop .nav-button { display: none; }
