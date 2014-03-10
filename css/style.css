@@ -532,6 +532,7 @@ nav.desktop {
 	padding: 60px 5% 0px 0px;
 	width: 80%;
 	right: 0;
+	font-weight: 900;
 }
 
 nav.desktop .search-trigger {
