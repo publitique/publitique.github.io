@@ -137,7 +137,7 @@ function initializeForm() {
 					top: 0,},
 					1, function() {
 						$('nav, header').removeClass('sticky');
-						$('.sticky-head').fadeOut('slow'); 
+						$('.sticky-head'); 
 				}); 
 			}
 		
