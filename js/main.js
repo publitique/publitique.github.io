@@ -122,7 +122,24 @@ function initializeForm() {
 		$(document).on("ready", navigationInit);
 	})();
 
+	(function() {
+		function navigationSticky(){
+			var scrollTop = $(window).scrollTop();
 
+			if (scrollTop > 550 ) {   
+				$('nav, header').addClass('sticky');
+				$('.menu-collant').slideDown();
+			
+			} else {
+				$('header.desktop.sticky, nav.desktop.sticky').stop().animate({
+					top: 0,},
+					1, function() {
+						$('nav, header').removeClass('sticky');
+						$('.menu-collant').fadeOut('slow'); 
+				}); 
+			}
+		
+		}
 
 		$(window).on("scroll", navigationSticky);
 		$(window).on("resize", navigationSticky);
