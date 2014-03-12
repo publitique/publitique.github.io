@@ -128,7 +128,7 @@ function initializeForm() {
 
 			if (scrollTop > 550 ) {   
 				$('nav, header').addClass('sticky');
-				$('.menu-collant'').slideDown();
+				$('.menu-collant').slideDown();
 				$('header.desktop.sticky, nav.desktop.sticky').stop().animate({
 					top: 15
 				});
