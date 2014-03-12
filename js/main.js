@@ -1,5 +1,5 @@
 /* =Main INIT Function
-------------------------------------------------------------- */
+-------------------------------------------------------------- */
 function initializeForm() {
 
 	"use strict";
@@ -128,7 +128,7 @@ function initializeForm() {
 
 			if (scrollTop > 550 ) {   
 				$('nav, header').addClass('sticky');
-				$('.sticky-head').slideDown();
+				$('.menu-collant'').slideDown();
 				$('header.desktop.sticky, nav.desktop.sticky').stop().animate({
 					top: 15
 				});
@@ -137,7 +137,7 @@ function initializeForm() {
 					top: 0,},
 					1, function() {
 						$('nav, header').removeClass('sticky');
-						$('.sticky-head').fadeOut('slow'); 
+						$('.menu-collant').fadeOut('slow'); 
 				}); 
 			}
 		
