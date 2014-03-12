@@ -137,7 +137,7 @@ function initializeForm() {
 					top: 0,},
 					1, function() {
 						$('nav, header').removeClass('sticky');
-						$('.menu-collant').fadeOut('slow'); 
+						$('.menu-collant').fadeOut('fast'); 
 				}); 
 			}
 		
